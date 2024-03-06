@@ -1,16 +1,11 @@
 body {
     background-color: #F7F3EB;
-    margin-left: 20px;
+    /*margin-left: 20px;*/
     font-family: "Poppins", sans-serif;
-    line-height: 160%;
-    padding: 29px 16px 58px 29px;
+    line-height: 170%;
+    padding: 58px 29px /*58px 29px*/;
     text-align: justify;
   }
-
-
-.part1, .part3 {
-  padding: 16px;
-}
 
 h2 {
   padding-top: 29px;
@@ -47,10 +42,40 @@ a:active {
 
 img {
     border-radius: 2%;
+    width: 100%;
   }
 
-@media only screen and (min-width: 1000px) {
-  body {padding: 100px 200px 100px 200px}
+  .box  {
+    background-color: #EFEBE4;
+    border-radius: 2%;
+    padding: 16px 29px 16px 29px;
+    text-align: left;
+}
+
+li {
+  text-align: left;
+}
+
+
+@media (min-width: 320px) {
+  .videos-4 {display: none}
+}
+
+@media (min-width: 620px) {
+  img {width:58%}
   }
+
+@media (min-width: 820px) {
+  .videos-2a {display: none}
+  .videos-2b {display: none}
+  .videos-4 {display: block}
+  }
+
+
+@media (min-width: 1024px) {
+    img {width:29%}
+    body {padding: 100px 200px 100px 200px}
+    }
+
 
 
