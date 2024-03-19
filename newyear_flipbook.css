@@ -53,57 +53,57 @@
 
 @media (min-width: 620px) {
     .flipbook-viewport .flipbook{
-        width:620px;
-        height:435px; 
+        width:484px;
+        height:340px; 
     }
     
     .flipbook-viewport .double{
-        width:620px;
-        height:435px; 
+        width:484;
+        height:340px; 
         background-size:100% 100%;
     }
     
     .flipbook-viewport .page{
-        width:310px;
-        height:435px; 
+        width:242px;
+        height:340px; 
         background-size:100% 100%;
     }
 }
 
 @media (min-width: 820px) {
     .flipbook-viewport .flipbook{
-        width:820px;
-        height:576px; 
+        width:527px;
+        height:370px; 
     }
     
     .flipbook-viewport .double{
-        width:820px;
-        height:576px;
+        width:527px;
+        height:370px;
         background-size:100% 100%;
     }
     
     .flipbook-viewport .page{
-        width:410px;
-        height:576px;
+        width:264px;
+        height:370px;
         background-size:100% 100%;
     }
 }
 
 @media (min-width: 1024px) {
     .flipbook-viewport .flipbook{
-        width:1024px;
-        height:719px; 
+        width:960px;
+        height:674px; 
     }
     
     .flipbook-viewport .double{
-        width:1024px;
-        height:719px; 
+        width:960px;
+        height:674px; 
         background-size:100% 100%;
     }
     
     .flipbook-viewport .page{
-        width:512px;
-        height:719px; 
+        width:480px;
+        height:674px; 
         background-size:100% 100%;
     }
 }
