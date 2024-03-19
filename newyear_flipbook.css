@@ -91,19 +91,19 @@
 
 @media (min-width: 1024px) {
     .flipbook-viewport .flipbook{
-        width:960px;
-        height:674px; 
+        width:900px;
+        height:632px; 
     }
     
     .flipbook-viewport .double{
-        width:960px;
-        height:674px; 
+        width:900px;
+        height:632px; 
         background-size:100% 100%;
     }
     
     .flipbook-viewport .page{
-        width:480px;
-        height:674px; 
+        width:450px;
+        height:632px; 
         background-size:100% 100%;
     }
 }
